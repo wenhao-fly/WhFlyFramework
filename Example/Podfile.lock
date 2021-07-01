@@ -1,0 +1,16 @@
+PODS:
+  - WhFlyFramework (0.0.1)
+
+DEPENDENCIES:
+  - WhFlyFramework (from `../`)
+
+EXTERNAL SOURCES:
+  WhFlyFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WhFlyFramework: 03b72af8954b002735446e51953077fcf30b871a
+
+PODFILE CHECKSUM: 3786f847d81d482b4ac0f1d36bf55f344f1c57eb
+
+COCOAPODS: 1.10.1

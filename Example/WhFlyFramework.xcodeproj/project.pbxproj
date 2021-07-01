@@ -63,10 +63,10 @@
 		7FB7DFF1A746A466EA551833 /* Pods-WhFlyFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhFlyFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-WhFlyFramework_Example/Pods-WhFlyFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		889C164AE006AF1A44507187 /* Pods-WhFlyFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhFlyFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WhFlyFramework_Tests/Pods-WhFlyFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5D33C4ADEC27CDE2B13C216 /* WhFlyFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WhFlyFramework.podspec; path = ../WhFlyFramework.podspec; sourceTree = "<group>"; };
-		D1611A1CB8BC82E84BEECE2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A5D33C4ADEC27CDE2B13C216 /* WhFlyFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WhFlyFramework.podspec; path = ../WhFlyFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1611A1CB8BC82E84BEECE2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E39C5BA5DF94165F416695ED /* Pods-WhFlyFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhFlyFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-WhFlyFramework_Example/Pods-WhFlyFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F1E617816715308C7022C773 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F1E617816715308C7022C773 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				889C164AE006AF1A44507187 /* Pods-WhFlyFramework_Tests.debug.xcconfig */,
 				1C6B5990BA13CD62D1967B74 /* Pods-WhFlyFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9CE0D70BD6B48FCEBE4E7377 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9CE0D70BD6B48FCEBE4E7377 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhFlyFramework_Example/Pods-WhFlyFramework_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WhFlyFramework/WhFlyFramework.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WhFlyFramework.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhFlyFramework_Example/Pods-WhFlyFramework_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D4CA1B57768AD680ABFBF972 /* [CP] Check Pods Manifest.lock */ = {

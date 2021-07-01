@@ -1,0 +1,6 @@
+framework module WhFlyFramework {
+  umbrella header "WhFlyFramework.h"
+
+  export *
+  module * { export * }
+}

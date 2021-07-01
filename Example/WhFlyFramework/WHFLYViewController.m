@@ -7,6 +7,7 @@
 //
 
 #import "WHFLYViewController.h"
+#import <WhFlyFramework/WhFlyTest.h>
 
 @interface WHFLYViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [WhFlyTest test];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,6 @@
+framework module Pods_WhFlyFramework_Tests {
+  umbrella header "Pods-WhFlyFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
