@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WhFlyFramework_Example' do
+  pod 'WhFlyFramework', :path => '../'
+
+  target 'WhFlyFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
